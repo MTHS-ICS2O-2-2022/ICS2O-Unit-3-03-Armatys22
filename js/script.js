@@ -10,11 +10,11 @@
  */
 function calculate() {
   // input
-  const radius = parseInt(document.getElementById("radius-of-sphere").value)
+  const radius = parseInt(document.getElementById("radius").value)
 
   // process
-  const volume = 3/4 * 3.14 * radius
+  const volume = (4/3) * Math.PI * radius**3
 
   // output
-  document.getElementById("volume").innerHTML = "volume is: " + volume + " mm³"
+  document.getElementById("volume").innerHTML = "volume is: " + volume.toFixed(2) + "."
 }
