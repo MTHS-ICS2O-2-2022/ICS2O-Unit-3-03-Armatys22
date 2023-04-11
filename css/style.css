@@ -16,17 +16,6 @@
 
 /* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
 */
-.mdl-ripple {
-  background: #00ff00;
-  opacity: 0.0001;
-  padding-bottom: 40px;
-  padding-left: 15pt;
-  padding-right: 15pt;
-  padding-top: 15pt;
-      font-size: 6rem;
-        font-family: sans-serif;
-        margin: 20px;
-}
 
 body {
   background-color: rgb(255, 187, 0);
@@ -46,9 +35,3 @@ img {
   margin-bottom: auto;
   margin-right: 50;
 }
-
-.options_button {
-    font-size: 6rem;
-      font-family: sans-serif;
-      margin: 20px;
-    }
